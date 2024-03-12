@@ -1,0 +1,53 @@
+body {
+    font-size: large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    height: 100vh;
+    background-image: linear-gradient(to right bottom, white, rgb(254, 142, 142), rgb(253, 253, 155), rgb(150, 150, 254), white);
+    
+}
+#yourName {
+    padding: 5px 20px;
+    width: 20rem;
+    border-radius: 10px;
+    font-size: large;
+    background-color: rgb(244, 235, 222);
+}
+
+button {
+    padding: 10px 25px;
+    font-size: larger;
+    border-radius: 10px;
+    font-weight: 600;
+    background-image: linear-gradient(to left bottom, white, rgb(251, 115, 115), rgb(254, 254, 131), rgb(98, 98, 252), white);
+    transition: background-image 0.3s;
+    cursor: pointer;
+}
+button:active {
+    opacity: 0.5;
+}
+button:hover{
+    background-image: linear-gradient(to left, white, rgb(251, 115, 115), rgb(254, 254, 131), rgb(98, 98, 252), white);
+}
+
+p{
+    font-weight: 800;
+}
+
+@media screen and (max-width: 480px) {
+    body {
+        font-size: medium;        
+    }
+    #yourName {
+        display: block;
+        padding: 5px 15px;
+        width: 15rem;
+        border-radius: 5px;
+        font-size: medium;
+    }
+    
+    button {
+        padding: 5px 15px;
+        font-size: medium;
+        border-radius: 7px;
+    }
+}
